@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.8">
+    <title>Я Фотограф</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <div class="banner_container">
+            <div class="banner">
+                <div class="center_content">
+                    <span>Экспресс-фотосессия в отеле</span><br>
+                    <button class="btn_banner" id="button">подробнее</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal">
+            <div class="modal_main">
+                <h2 class="modal_title">Экспресс-фотосессия в отеле за 4500-5000₽</h2>
+                <span><p>В <b>апреле</b> проводим экспресс-съемку (30/60 минут). Срок отдачи фотографий - 5 дней!</p><br>
+                <p><b>Что входит?</b>
+                    <br>
+                    - номер в отеле;
+                    <br>
+                    - макияж;
+                    <br>
+                    - прическа / укладка;
+                    <br>
+                    - фотосессия;
+                </p><br>
+                <p>По итогу вы получаете:
+                    <br>
+                    - 15 фотографий в глубокой ретуши
+                    <br>
+                    - все исходные снимки в цветокоррекции<br></p></span>
+                    
+
+                    <div class="img_modal">
+                        <img src="foto/foto_banner/banner_foto1.jpg" class="img_banner">
+                        <img src="foto/foto_banner/banner_foto2.jpg" class="img_banner">
+                    </div>
+
+                <button class="modal_close" id="close_modal">&#10006;</button>
+
+            </div>
+        </div>
+        <script src="modal.js"></script>
+    </div>
+    <header id="header" class="vh-100 flex">
+        <div class="container">
+            <div class="header-content">
+                <h1>Я<br><span class="typewrite" data-loop="yes" data-speed="175" data-delay="2000" data-words='["фотограф", "фотограф" ]'></span></h1>
+                <h3>Черницына Юлия</h3>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://vk.com/chernitsyna_yulia" class="flex" target="_blank">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Finstagram.com%2Fyulia_life07%3Figshid%3DYmMyMTA2M2Y%3D" class="flex" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/Yulia_Chernitsyna" class="flex" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="about py-7">
+            <div class="container">
+                <div class="about-content grid">
+                    <div class="about-left">
+                        <img src="foto/foto_site/foto3.jpg" alt="" class="about-img">
+                    </div>
+                    <div class="about-right">
+                        <div class="title">
+                            <h2>Обо мне</h2>
+                        </div>
+                        <p class="lead">Меня зовут Юля. Я - за легкие, живые и минималистичные кадры без шаблонных поз. На фотосессии я помогу вам раскрыться, объяснив принципы позирования, чтобы фотоснимки получились естественными и гармоничными.
+                        Также позабочусь о том, чтобы фотографии отражали красочность момента и задуманного образа.
+                        Для такого результата с вашей стороны нужно приложить минимум усилий: лёгкая укладка, свежий мейк + ваши горящие глаза.</p>
+                        <p class="lead">Я занимаюсь фотосъёмкой с 2017 года. За это время успела получить колоссальный опыт и «набить» руку, получила сертификат за прохождения курса в Nikon School, поэтому первые 10 снимков будут готовы уже через 3 дня после фотосессии.</p>
+                        <p class="lead">Если у вас есть образ или референсы того, как именно вы хотели бы провести фотосьемку, то я с удовольствием посоветую стильные студии в
+                        Белгороде и помогу подобрать самую подходящую.</p>
+                        <a href="#work" class="btn-down">
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work" class="vh-100 flex py-7">
+            <div class="container">
+                <div class="work-content">
+                    <div class="title">
+                        <h2>ИНФОРМАЦИЯ ПО СЪЕМКЕ</h2>
+                    </div>
+                    <ul class="work-top grid">
+                        <div>
+                            <li class="lead tcw">Что входит в съемку?</li>
+                            <li class="lead tw">- Подбор тематики фотосессии</li>
+                            <li class="lead tw">- Подготовка ваших образов</li>
+                            <li class="lead tw">- Обсуждение деталей</li>
+                            <li class="lead tw">- Помощь в позировании</li>
+                            <li class="lead tw">- Выбор нужной фотостудии</li>
+                            <li class="lead tw">- Выбор удобного времени для фотосесси</li>
+                        </div>
+                        <div>
+                            <li class="lead"><i class="fas fa-dot-circle"></i> Время на обработку фотографий 5-7 дней.</li>
+                            <li class="lead"><i class="fas fa-dot-circle"></i> После обработанные фотографии отправляются на Облако или на Гугл Диск.</li>
+                            <li class="lead"><i class="fas fa-dot-circle"></i> Я работаю в соответствии с руководящими принципами Российского института цифровых
+                            фотографов с точки зрения управления цветом и обработки файлов.</li>
+                            <li class="lead"><i class="fas fa-dot-circle"></i> После съемки я отправляю вам ссылку на Облако или на Гугл Диск в течении дня с вашими фотографиями.</li>
+                        </div>
+                        <div>
+                            <div class="work-bottom grid">
+                                <div>
+                                    <span class="icon"><img src="portrait.png"></span>
+                                    <h3>Portrait</h3>
+                                    <span class="tooltiptext">Price 2000</span>
+                                </div>
+                                <div>
+                                    <span class="icon"><img src="lovestory.png"></span>
+                                    <h3>LoveStory</h3>
+                                    <span class="tooltiptext">Price 2500</span>
+                                </div>
+                                <div>
+                                    <span class="icon"><img src="family.png"></span>
+                                    <h3>Family</h3>
+                                    <span class="tooltiptext">Price 3000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                    <a href="#portfolio" class="btn-down">
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="vh-100 py-7">
+            <div class="container">
+                <div class="portfolio-content">
+                    <div class="title">
+                        <h2>Мои последние работы</h2>
+                        <a href="#contact" class="btn-down">
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class="portfolio_head">
+						<div class="block-portfolio">
+                            <h3 class="title_text">Алана Демидова - Фотостудия</h3>
+                            <div class="portfolio-grid grid mb-50">
+                                 <div><img src="foto/foto_portfolio/Alana(1).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Alana(2).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Alana(3).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Alana(4).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Alana(5).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Alana(6).jpg"></div>
+                            </div>
+                        </div>
+                        <div class="block-portfolio">
+                            <h3 class="title_text">Елизавета - Фотостудия</h3>
+                            <div class="portfolio-grid grid mb-50">
+                                 <div><img src="foto/foto_portfolio/Elizaveta(1).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Elizaveta(2).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Elizaveta(3).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Elizaveta(4).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Elizaveta(5).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Elizaveta(6).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Elizaveta(7).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Elizaveta(8).jpg"></div>
+                            </div>
+                        </div>
+                        <div class="block-portfolio">
+                            <h3 class="title_text">Галина - Фотостудия</h3>
+                            <div class="portfolio-grid grid mb-50">
+                                 <div><img src="foto/foto_portfolio/Galina(1).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Galina(2).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Galina(3).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Galina(4).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Galina(5).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Galina(6).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Galina(7).jpg"></div>
+                                 <div><img src="foto/foto_portfolio/Galina(8).jpg"></div>
+                            </div>
+                        </div>
+                        <div class="block-portfolio">
+                            <h3 class="title_text">Анжелика - г. Белгород</h3>
+                            <div class="portfolio-grid grid mb-50">
+                                <div><img src="foto/foto_portfolio/Angelica(1).jpg"></div>
+                                <div><img src="foto/foto_portfolio/Angelica(2).jpg"></div>
+                                <div><img src="foto/foto_portfolio/Angelica(3).jpg"></div>
+                                <div><img src="foto/foto_portfolio/Angelica(4).jpg"></div>
+                                <div><img src="foto/foto_portfolio/Angelica(5).jpg"></div>
+                                <div><img src="foto/foto_portfolio/Angelica(6).jpg"></div>
+                                <div><img src="foto/foto_portfolio/Angelica(7).jpg"></div>
+                                <div><img src="foto/foto_portfolio/Angelica(8).jpg"></div>
+                            </div>
+                        </div>
+                        <div class="block-portfolio">
+                            <h3 class="title_text">Елизавета и Максим - г. Строитель</h3>
+                            <div class="portfolio-grid grid mb-50">
+                                <div><img src="foto/foto_portfolio/liza_maksim(1).jpg"></div>
+                                <div><img src="foto/foto_portfolio/liza_maksim(2).jpg"></div>
+                                <div><img src="foto/foto_portfolio/liza_maksim(3).jpg"></div>
+                                <div><img src="foto/foto_portfolio/liza_maksim(4).jpg"></div>
+                                <div><img src="foto/foto_portfolio/liza_maksim(5).jpg"></div>
+                                <div><img src="foto/foto_portfolio/liza_maksim(6).jpg"></div>
+                            </div>
+                        </div>
+                        <div class="block-portfolio">
+                            <h3 class="title_text">Елизавета - г. Белгород</h3>
+                            <div class="portfolio-grid grid mb-50">
+                                <div><img src="foto/foto_portfolio/liza(1).jpg"></div>
+                                <div><img src="foto/foto_portfolio/liza(2).jpg"></div>
+                                <div><img src="foto/foto_portfolio/liza(3).jpg"></div>
+                                <div><img src="foto/foto_portfolio/liza(4).jpg"></div>
+                                <div><img src="foto/foto_portfolio/liza(5).jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-center">
+                        <button class="show-more">Показать еще</button>
+                    </div>
+                </div>
+            </div>
+        <script src="show-more.js"></script>
+        </section>
+        <section id="contact" class="py-7">
+            <div class="container">
+                <div class="contact-content flex">
+                    <div class="contact-left">
+                        <div class="title">
+                            <h2>Связаться со мной</h2>
+                        </div>
+                        <div class="content_text">
+                            <div class="content_tx"><button class="link_content open" id="link_first">По email</button></div>
+							<div class="content_tx"><button class="link_content close" id="link_second">Соц. сети</button></div>
+                        </div>
+						<div class="active" id="mail_block">
+							<p class="lead"><i class="fas fa-phone-alt"></i> +7 999 555 81 75</p>
+							<p class="lead"><i class="fas fa-envelope"></i> contact@mail.ru</p>
+                            <form action="mail.php" method="post" class="my-form">
+                                <input type="text" name="name" class="form-control" id="forName" placeholder="Ваше имя здесь ..." required>
+                                <input type="email" name="email" class="form-control" id="forEmail" placeholder="Ваш email здесь" required>
+                                <textarea name="message" class="form-control form-textarea" id="forMessage" placeholder="Сообщение"></textarea>
+                                <input name="bezspama" type="text" style="display: none" value="">
+                                <button type="submit" class="btn-submit btn">Отправить</button>
+                                <div class="status"></div>
+                            </form>
+                        </div>
+                        <div class="none" id="social_block">
+                            <ul class="social-links center_links">
+                                <li>
+                                    <a href="https://vk.com/chernitsyna_yulia" class="flex" target="_blank">
+                                        <i class="fab fa-vk"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Finstagram.com%2Fyulia_life07%3Figshid%3DYmMyMTA2M2Y%3D" class="flex" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/Yulia_Chernitsyna" class="flex" target="_blank">
+                                        <i class="fab fa-telegram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+						</div>
+                    </div>
+                    <div class="contact-right">
+                        <img src="contact-pic.jpg" alt="contact image" class="contact-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reviews" class="py-7">
+            <div class="container">
+                <div class="reviews-content">
+                    <div class="title">
+                        <h2>Отзывы</h2>
+                        <a href="#footer" class="btn-down btn-down-white"><i class="fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class="reviews-grid grid">
+                        <div><img src="foto/foto_reviews/reviews(1).jpg"></div>
+                        <div><img src="foto/foto_reviews/reviews(1).jpg"></div>
+                        <div><img src="foto/foto_reviews/reviews(1).jpg"></div>
+                        <div><img src="foto/foto_reviews/reviews(1).jpg"></div>
+                        <div><img src="foto/foto_reviews/reviews(1).jpg"></div>
+                        <div><img src="foto/foto_reviews/reviews(1).jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<button class="scrollToTopBtn">&#8743;</button>
+    </main>
+    <footer id="footer" class="py-7">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Черницына Юлия</h3>
+                    <div><img src="foto/foto_site/avatar_footer.jpg" class="footer-img"></div>
+                </div>
+                <div>
+                    <h3>Навигация</h3>
+                    <ul class="flex">
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#work">Что я делаю?</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#contact">Связаться со мной</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="typewriting-master/typewriting.js"></script>
+	<script src="left_block.js"></script>
+	<script src="button.js"></script>
+</body>
+</html>
